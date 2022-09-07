@@ -1,0 +1,115 @@
+
+
+
+body {                                                  /* style background color for the body of the page as well as font characteristics and line height.*/
+    background-color: rgb(30, 36, 36);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+}
+
+h1 {                                                    /* style for specific text in h1  */
+    font-size: 60px;
+    font-style: italic;
+}
+    
+#subtext {                                         /* style for specific text in this specific paragraph */
+    font-size: 30px;
+}
+
+#header {                                           /* style being applied specifically to the div container within the header */
+    color: grey;
+    background-color: rgb(56, 64, 71);
+    height: fit-content;
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+    
+}
+
+img {                                              /* style being applied specifically to the img, setting it so that it's centered and a size that feels appropriate for the webpage when viewing.*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+}
+
+h2 {                                            /* style being applied specifically to the h2 element, giving it a text align and border styling*/
+   color: grey; 
+   text-align: center;
+}
+
+p.intro {                                       /* style being applied specifically to the p element with .intro class*/
+    color: grey;
+    list-style-position: inside;
+    text-align: center;
+}
+
+hr {                                             /* style being applied specifically to the hard return element to make it uniform in color with the rest of the pages' styling.*/
+    color: grey;                       
+    height: 2px;
+    background-color: rgb(56, 64, 71);
+    border: none;
+}
+
+h3 {                                              /* style being applied specifically to the h3 element, the next section of the page..*/          
+    color: grey; 
+   text-align: center;
+}
+
+p.about {                                       /* style being applied specifically to the p element with .about class*/
+    color: grey;
+    list-style-position: inside;
+    text-align: left;
+}
+
+ul.web-design {                                            /* style being applied specifically to the unordered list elements so as to make sure the list appears uniform under the h3 heading */
+    color: grey;
+    list-style-position: inside;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h4 {                                              /* style being applied specifically to the h4 element, the contact section of the page..*/          
+    color: grey; 
+   text-align: center;
+}
+
+p.contact {                                       /* style being applied specifically to the p element with .about class*/
+    color: grey;
+    list-style-position: inside;
+    text-align: center;
+}
+
+ol.social-media {                                            /* style being applied specifically to the ordered list elements so as to make sure the list appears uniform under the h4 heading */
+    color: grey;
+    list-style-position: inside;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+a {                                                                              /* The a selector and a:link selectors here denote the behavior of the color of the link when a certain action is performed on it. The ordering is important here.*/
+    color: beige; 
+    text-decoration-color: beige;
+}
+
+a:link {
+  color: beige;
+}
+
+a:visited {
+  color: plum;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+}
